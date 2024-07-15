@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lig 2</title>
+    <style>
+        div{
+            width: 700px;
+            height: 380px;
+            background-color: cadetblue;
+            margin: 0 auto;
+        }
+        .div1{
+            width: 700px;
+            height: 380px;
+            background-color: red;
+            margin: 0 auto;
+        }
+        .div2{
+            width: 700px;
+            height: 380px;
+            background-color: red;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h4><em>Lista te Renditura</em></h4>
+        <ol>
+            <li><a href="https://www.ubt-uni.net/sq/studimi/programet-bacelor/shkenca-kompjuterike-dhe-inxhinieri/">SHKI</a></li>
+            <li>MBE</li>
+            <li>SI</li>
+            <li>AR</li>
+        </ol>
+        <h4><em>Lista te Parenditura</em></h4>
+        <ul>
+            <li>Programim</li>
+            <li>Menaxhim dhe Ekonomiks</li>
+            <li>Sistemet te Teknologjis Infomative</li>
+            <li>Arkitektura</li>
+        </ul>
+        <h4><em>Lista pershkruese</em></h4>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hypertext Markup Language</dd>
+            <dt>FTP</dt>
+            <dd>File Transfer Protocol</dd>
+        </dl>
+    </div>
+    <div>
+        <h4><em>Lista te shumefishta (Nested)</em></h4>
+        <ul>
+        <li>MBE</li>
+        <li>SHKI
+            <ul>
+                <li>Specializmet BSc:
+                    <ul>
+                    <li type="square">Inxhineria Sistemeve Softuerike</li>
+                    <li type="square">Programimi ne Web</li>
+                    <li type="square">.........</li>
+                    </li>
+                </ul>
+                
+                <li>Specializmet MSc:
+                <ul>
+                <li type="square">Inxhineria Sistemeve Softuerike</li>
+                <li type="square">Programimi ne Web</li>
+                <li type="square">Data Science</li>
+                <li type="square">.........</li>
+                </ul>
+                </li>
+            </ul>
+        </li>
+        <li>SI</li>
+</div>
+<br>
+
+<div class="div1">
+    <table border="1">
+        <tr>
+            <td>10</td>
+            <td>20</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+        </tr>
+        </table>
+<br>
+        <table border=".5">
+            <tr>
+                <th></th>
+                <th>E Shtune</th>
+                <th>E Diele</th>
+            </tr>
+            <tr>
+                <th>Blietat te Shitura:</th>
+                <td>300</td>
+                <td>600</td>
+            </tr>
+            <tr>
+                <th>Shuma totale:</th>
+                <td>€600</td>
+                <td>€675</td>
+            </tr>
+        </table>
+        <br>
+        <table border="1">
+            <tr>
+                <th></th>
+                <th>9am</th>
+                <th>10am</th>
+                <th>11am</th>
+                <th>12am</th>
+            </tr>
+            <tr>
+                <th>e Hene</th>
+                <td colspan="2">U: Inxh e Web-it</td>
+                <td>L: Matematika 2</td>
+                <td>U: Hyrje ne Algoritme</td>
+            </tr>
+            <tr>
+                <th>e Marte</th>
+                <td colspan="3">L: OOP</td>
+                <td>Kampus</td>
+            </tr>
+        </table>
+<br>
+        <table border="1">
+            <tr>
+                <th></th>
+                <th>9am</th>
+                <th>10am</th>
+                <th>11am</th>
+                <th>12am</th>
+            </tr>
+            <tr>
+                <th>e Hene</th>
+                <td rowspan="2">U: Inxh e Web-it</td>
+                <td>L: Matematika 2</td>
+                <td colspan="2">U: Hyrje ne Algoritme</td>
+            </tr>
+            <tr>
+                <th>e Marte</th>
+                <td colspan="2">L: OOP</td>
+                <td>Kampus</td>
+            </tr>
+        </table>
+<br>
+        <div class="div2">
+            <form>
+                <h2>Krijimi i formularit ne HTML</h2>
+                <p>
+                    Perdoruesi: <input type="text" size="15" maxlength="40">
+                </p>
+                <p>
+                    Fjalekalimi: <input type="password">
+                </p>
+                <p>
+                    Komenti:
+                </p>
+                <textarea name="koment" id="" cols="30" rows="6">Ketu mund te shtoni komentet</textarea>
+                <p>Ju mund te regjistroni ne nje Specializim</p>
+                <input type="radio" name="Specializimi" value="webP"> Web Programim
+                <input type="radio" name="Specializimi" value="InxhS" checked="checked"> Inxhineria Softuerike
+            </form>
+        </div>
+</div>
+</body>
+</html>
